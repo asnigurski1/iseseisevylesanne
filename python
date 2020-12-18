@@ -1,0 +1,48 @@
+#Artur Snigurski
+#IT20
+
+#ISESEISVAD ÜLESANDED
+
+
+#Ülesanne 6 (programm, mis tuvastab, kas arv on paaris või paaritu)
+kysib = int(input("Sisesta oma number: "))
+if (kysib % 2) == 0:
+    print("{0} on paarisarv".format(kysib))
+else:
+    print("{0} on paaritu arv".format(kysib))
+    
+
+#Ülesanne 2 (genereerib suvalise täisarvu 1-6)
+import random
+suvaline = random.sample(range(1, 6), 1)
+print(suvaline)
+
+
+#Ülesanne 10 (programm, mis väljastab arvud 1-66 viie kaupa reas)'
+import random
+
+numbrid = []
+
+for i in range(0,5):
+    x = random.randint(1,66)
+    numbrid.append(x)
+
+print(numbrid)
+
+
+#Ülesanne 7 (programm, mis tuvastab, kas tekst palindroom või mitte)
+palindroom = input(("Sisesta oma sõna: "))
+if(palindroom==palindroom[::-1]):
+      print("Sinu sõna on palindroom!")
+else:
+      print("Sinu sõna ei ole palindroom!")
+
+
+#Ülesanne 11
+for i in range(1, 66): 
+    if i % 3 == 0:
+       print(i)
+
+
+
+
